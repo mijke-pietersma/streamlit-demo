@@ -10,7 +10,7 @@ import pandas as pd
 st.title("📊 Simple Data Analyzer")
 
 # File uploader
-uploaded_file = st.file_uploader("USindustrialProduction.csv", type=["csv"])
+uploaded_file = st.file_uploader("Upload your csv file:", type=["csv"])
 
 if uploaded_file:
     # Read uploaded CSV
