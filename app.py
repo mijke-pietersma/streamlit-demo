@@ -7,7 +7,7 @@ Created on Wed Jul  2 23:20:48 2025
 import streamlit as st
 import pandas as pd
 
-st.title("📊 Simple Data Analyzer")
+st.title("Simple Data Analyzer")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your csv file:", type=["csv"])
